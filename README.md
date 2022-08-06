@@ -24,3 +24,5 @@ django project를 kubernetes로 배포하기
 > kubectl get pod -o wide (pod ip 확인 명령어)
 
 > kubectl create deployment deploy-nginx --image=nginx(deployment 배포 명령어)
+
+> kubectl delete pod [pod 이름]
